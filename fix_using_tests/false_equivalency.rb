@@ -20,6 +20,8 @@ def selection(num)
   end
 end
 
+selection(get_user_input)
+
 def runner
   prompt_user
   selection(get_user_input)
